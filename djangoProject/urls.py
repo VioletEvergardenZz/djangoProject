@@ -26,4 +26,6 @@ urlpatterns = [
     path('index/', views.index),
     path('user/list', views.user_list),
     path('user/add', views.user_add),
+    path('login/',views.login),
+
 ]
